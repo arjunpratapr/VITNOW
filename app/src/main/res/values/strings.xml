@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VIT Now!</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="btn_loginpage" >Login for Clubs</string>
+    <string name="btn_home" >Announcements</string>
+    <string name="hint_date">Event Date and Time</string>
+    <string name="hint_clubname">Club Name</string>
+    <string name="hint_event">Event Name</string>
+    <string name="hint_venue">Event Venue</string>
+    <string name="hint_phno">Contact No.</string>
+    <string name="hint_desc">Event Description</string>
+    <string name="btn_club">Submit Event</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Search</string>
+
+</resources>

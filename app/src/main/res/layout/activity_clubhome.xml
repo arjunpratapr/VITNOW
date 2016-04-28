@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_register"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" >
+
+        <EditText
+            android:id="@+id/clubname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_clubname"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:inputType="text"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/ddate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_date"
+            android:inputType="date"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:layout_below="@+id/devent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/devent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_event"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:layout_below="@+id/clubname"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <!-- Login Button -->
+
+        <Button
+            android:id="@+id/btnClub"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ea4c88"
+            android:text="@string/btn_club"
+            android:textColor="@color/white"
+            android:layout_above="@+id/logout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/dvenue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_venue"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:layout_below="@+id/ddate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/dphno"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_phno"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:layout_below="@+id/dvenue"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_desc"
+            android:inputType="textMultiLine"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:padding="10dp"
+            android:id="@+id/eventdesc"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/dphno"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_above="@+id/btnClub" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:id="@+id/logout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"/>
+
+        <!-- Link to Login Screen -->
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
