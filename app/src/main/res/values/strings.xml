@@ -14,7 +14,7 @@
     <string name="name">Fullname</string>
     <string name="btn_loginpage" >Login for Clubs</string>
     <string name="btn_home" >Announcements</string>
-    <string name="hint_date">Event Date and Time</string>
+    <string name="hint_date">Event Date (YYYY-MM-DD)</string>
     <string name="hint_clubname">Club Name</string>
     <string name="hint_event">Event Name</string>
     <string name="hint_venue">Event Venue</string>
